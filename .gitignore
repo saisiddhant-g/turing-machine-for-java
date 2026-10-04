@@ -5,11 +5,12 @@
 # Python cache
 __pycache__/
 *.py[cod]
+*$py.class
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Node
+# Node.js
 frontend/node_modules/
 
 # Frontend build
@@ -25,3 +26,39 @@ frontend/dist/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Python build / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Test / coverage
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+.hypothesis/
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
