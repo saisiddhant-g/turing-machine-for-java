@@ -1,0 +1,27 @@
+# Python virtual environments
+.venv/
+.venv37/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+frontend/node_modules/
+
+# Frontend build
+frontend/dist/
+
+# IDE
+.vscode/
+.qodo/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
