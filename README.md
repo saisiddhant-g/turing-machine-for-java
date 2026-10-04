@@ -3,12 +3,17 @@ Neural Turing Machine in Tensorflow
 
 Tensorflow implementation of [Neural Turing Machine](http://arxiv.org/abs/1410.5401). This implementation uses an LSTM controller. NTM models with multiple read/write heads are supported.
 
+## 🚀 Live Demo
+
+[**Neural Turing Machine Web App →**](https://turing-machine-for-java.vercel.app)
+
 ![alt_tag](etc/NTM.gif)
 
 The referenced torch code can be found [here](https://github.com/kaishengtai/torch-ntm).
 
-** 1. Loss sometimes goes to nan even with the gradient clipping ([#2](https://github.com/carpedm20/NTM-tensorflow/issues/2)).**
-** 2. The code is very poorly design to support NTM inputs with variable lengths. Just use this code as a reference.**
+**1. Loss sometimes goes to nan even with the gradient clipping ([#2](https://github.com/carpedm20/NTM-tensorflow/issues/2)).**
+
+**2. The code is very poorly designed to support NTM inputs with variable lengths. Just use this code as a reference.**
 
 
 Prerequisites
@@ -34,7 +39,7 @@ To test a *quick* copy task:
 Results
 -------
 
-More detailed results can be found [here](ipynb/NTM\ Test.ipynb).
+More detailed results can be found [here](ipynb/NTM%20Test.ipynb).
 
 **Copy task:**
 
